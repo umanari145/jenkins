@@ -1,0 +1,14 @@
+pipeline{
+    agent any
+    environment {
+        BUILD_HOST = "matsumoto@kill-up-engineering.com"
+    }
+    stages {
+        stage('BUILD') {
+            steps {
+
+            }
+        }
+    }
+}
+
