@@ -1,12 +1,12 @@
 pipeline{
     agent any
     environment {
-        BUILD_HOST = "matsumoto@kill-up-engineering.com"
+        BUILD_HOST = "root@"
     }
     stages {
         stage('BUILD') {
             steps {
-
+                
             }
         }
     }
